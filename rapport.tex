@@ -30,7 +30,40 @@ Ce document présente notre projet bigdata.
 
 \chapter{Le Projet}
 \section{Les besoins}
+Aujourd'hui pour acheter un bien immobilier il y a deux solutions principal:
+\begin{itemize}
+\item Passer par du particulier à particulier (leboncoin),
+\item Passer par une agence immobiliaire.
+\end{itemize}
+La première solution permet d'éviter les frais d'agence, mais il faut avoir
+confience en la personne qui vend le bien.
+En effet le cadre juridique et moins plus permisif dans le cas ou il n'y à pas
+d'agence.
+Il faut donc faire 2 fois plus attention au arnaque et vise cacher.
+
 \section{Solution}
+Nous avons donc réfléchie à une solution pour reduire les coups d'agence avec
+de la dématerialisation des visites et de l'automatisation de l'estimation des
+biens.
+
+Il serrai en effet possible de déterminé automatiquement la valeur d'un bien
+en fontion de sa géolocalisation, de ses plans et de plusieur autre facteur.
+
+La géolocalisation permettrai de connaitre les commerces, les trasports en commun
+et tous autre services à proximité, mais aussi via le registre de cadastre
+\footnote{Registre des cadastre français : \url{https://cadastre.gouv.fr/scpc/accueil.do}}
+de connaitre la valeur des biens vendu résament dans les autours.
+
+Les plans quand à eux serve à connaitre la surface du bien, mais pour un véritable
+estimation il faut aussi prendre en compte l'état actuelle des mures, sols,
+plafont, port, etc. Pour sela nous pouvons imaginé utilisé une camera à 360 à
+fin de modélisé l'apartement en 3D. Ses images pourons aussi servir a fair des
+visites de l'apartement avec un casque VR (Virtual Reality).
+%% Add images
+
+On peut imginé utilisé du ``machin learning'' pour le calcule d'un bien, mais
+il est aussi possible de simplement appliquer une formule de calcule prés
+déterminer.
 
 \chapter{Architecture}
 \section{Vue d'ensemble}
