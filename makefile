@@ -1,9 +1,9 @@
-all: rapport diapo
+all: rapport _diapo
 
 rapport: rapport.tex
 	pdflatex -shell-escape rapport.tex
 
-diapo: diapo/diapo.tex
+_diapo: diapo/diapo.tex
 	make -C diapo -f diapo.makefile
 
 clean:
